@@ -80,7 +80,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0 5rem;
   padding: 0;
-  background: url("../../../img/skin-care.png"), linear-gradient(90deg, #faf8f5 62%, #a9d6cb 62%);
+  background: url("/img/skin-care.png"), linear-gradient(90deg, #faf8f5 62%, #a9d6cb 62%);
   background-repeat: no-repeat;
   background-position: top right 50px, top right;
   background-size: 70%, 100%;
