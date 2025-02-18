@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+// abstracts/_mixins.scss
+
+@use "../abstracts/mixins" as *;
+@use "../abstracts/variables" as *;
+
+.login ul li a.button {
+  @include button;
+  &:hover {
+    color: $dark-blue;
+    background-color: $bg-color;
+  }
+}
+
+.button {
+  @include button;
+  &:hover {
+    color: $dark-blue;
+    background-color: $light-blue;
+  }
+}
