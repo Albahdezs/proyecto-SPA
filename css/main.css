@@ -80,7 +80,8 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0 5rem;
   padding: 0;
-  background: url("img/skin-care.png"), linear-gradient(90deg, #faf8f5 62%, #a9d6cb 62%);
+  background: url("/img/skin-care.png"),
+    linear-gradient(90deg, #faf8f5 62%, #a9d6cb 62%);
   background-repeat: no-repeat;
   background-position: top right 50px, top right;
   background-size: 70%, 100%;
@@ -114,7 +115,7 @@ body {
   top: 80px;
   height: auto;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   z-index: -1;
   opacity: 0.03;
 }
@@ -184,7 +185,8 @@ body {
 .testimonials {
   z-index: 2;
 }
-.testimonials-test1, .testimonials-test2 {
+.testimonials-test1,
+.testimonials-test2 {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 16px;
   border-radius: 10px;
@@ -211,4 +213,4 @@ body {
   font-weight: 16px;
   color: #264065;
   font-weight: bold;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
