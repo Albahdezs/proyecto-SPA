@@ -1,0 +1,12 @@
+@use "../abstracts" as *;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo img {
+  width: 150px;
+}
